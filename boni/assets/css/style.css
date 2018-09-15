@@ -1,0 +1,271 @@
+/* start header */
+#header img{
+    width:87px;
+    height:44px;
+    margin: 18px;
+}
+#header{
+    background-color:#19283f;
+    overflow-x: hidden !important;
+}
+#header .nav-wrapper{
+    background-color:#19283f;
+}
+#header .waves-effect{
+    background-color:#ff3150;
+    color:yellow;
+    border-radius:50px;
+    width:110px;
+}
+/* end header */
+
+ /* start taste the creativity */
+ .create{
+   
+     color:white;
+     text-align:center;
+     margin-top:0px !important;
+     padding: 55px;
+
+ }
+ .create button{
+    border-radius: 50px;
+    width: 180px;
+    height: 40px;
+    color: yellow;
+    background-color:#ff3150;
+    border:none;
+    margin-top:10px;
+ }
+ #header nav{
+     box-shadow:none;
+    
+ }
+
+ /* start stuff about us */
+ #stuff{
+    margin-top: 180px;
+    color:#c8d2d6;
+    text-align:center;
+ }
+
+ #stuff .stuff{
+     color:#19283f;
+ }
+#stuff span{
+    border-bottom:1px solid #77e1dd;
+    padding-bottom: 5px;
+}
+#stuff p{
+    
+    margin: auto;
+}
+
+.mac{
+    max-width: 100%;
+    height: auto;
+}
+.mac img{
+    width: 100%;
+    height: auto;
+}
+#stuff .retina button{
+    border-radius: 50px;
+    width: 180px;
+    height: 40px;
+    color: yellow;
+    background-color:#ff3150;
+    border:none;
+}
+/* start team section */
+#team{
+    background-color:#eff7fa;
+    padding: 50px;
+}
+#team h3{
+    color:#ffc501;
+    text-align:center;
+}
+#team p{
+    color:#a0a5a7;
+    text-align:center;
+}
+/* gap */
+.gap{
+    width: 200px;
+    height: 285px;
+    background-color: white;
+    padding-top: 171px;
+    position:relative;
+    margin-top: 30px;
+}
+.luke{
+    background-color: #33d1cc;
+    padding: 7px 49px;
+    position: absolute;
+    top: 130px;
+    color: white;
+}
+/* start lab section */
+#lab{
+    padding-top: 40px;
+}
+/* start your project now  */
+#project{
+    background-color: #19283f;
+}
+/* start read our blog */
+.story{
+    text-align: center;
+    margin-bottom: 52px;
+}
+.story span{
+    color:#a0a5a7;
+    border-bottom:1px solid #33d1cc;
+    padding: 8px;
+}
+.awes{
+  
+    height: 95px;
+    background-color: #eff7fa;
+}
+ .awes p{
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+    margin-top: 66px;
+}
+.awes span{
+    font-size:10px;
+    color:#a0a5a7;
+    padding:10px;
+    margin-top: 60px;
+}
+ #blog button {
+    border-radius: 50px;
+    width: 180px;
+    height: 40px;
+    color: yellow;
+    background-color: #ff3150;
+    border: none;
+    margin: 26px auto;
+}
+/* start subscribe to our newsletter  */
+#subs{
+    background-color:#ffc400;
+    padding: 5px;
+}
+#subs h6{
+    color:#19283f;
+    font-size:23px;
+    margin-top: 27px;
+
+}
+#subs input{
+    color:white;
+}
+#subs button{
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    color: yellow;
+    background-color: #19283f;
+    border: none;
+    margin-top: 21px;
+}
+.input-field input[type=text]:focus {
+    color: white !important;
+}
+/* satrt footer */
+footer{
+    background-color:#19283f;
+    padding:30px;
+    color:#9aaab2;
+    overflow-x: hidden;
+}
+
+.viva span{
+    color:#33d1cc;
+}
+.pell{
+    margin-bottom: 88px;
+    line-height: 20px;
+    font-size: 11px;
+}
+.inc span{
+    color:#ffc400;
+}
+.link li{
+    margin-top: 15px;
+}
+.link li a{
+    color:#9aaab2;
+    font-size: 13px;
+}
+footer h5{
+    color:white;
+    margin-top: 7px;
+}
+.about{
+    margin-left: 26px;
+}
+button.btn-large{
+    padding: 0px 18px;
+    border-radius: 50px;
+    background-color:#ff3150;
+    height: 44px;
+    line-height: 46px;
+    font-size: 14px;
+}
+button.btn-large:hover{
+    background-color:#d6102d;
+}
+.sos li {
+list-style-type:none;
+float:left;
+}
+.sos li i{
+    margin-left: 20px;
+    color: white;
+    border: 1px solid #347cd2;
+    background-color: #347cd2;
+    border-radius: 50px;
+    width: 33px;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+    border:none;
+}
+.sos li .fa-twitter{
+  background-color:  #1ec4ff;
+}
+.sos li .fa-google-plus-g{
+    background-color: #ff4032;  
+}
+::scrollbar { 
+    display: none; 
+ }
+
+ /* media queries */
+
+ @media screen and (max-width: 600px) {
+    .nav-wrapper a:not(:first-child) {display: none;}
+    .nav-wrapper a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .nav-wrapper.responsive {position: relative;}
+    .nav-wrapper.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav-wrapper.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
